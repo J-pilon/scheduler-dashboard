@@ -5,7 +5,7 @@ class Panel extends Component {
     const { label, value, onSelect } = this.props;
 
     return (
-      <section onClick={event => onSelect(id)}
+      <section onClick={onSelect}
         className="dashboard__panel"
       >
         <h1 className="dashboard__panel-header">{label}</h1>
